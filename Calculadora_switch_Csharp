@@ -4,20 +4,25 @@ class Program
 {
     static void Main()
     {
+        // Declaração das variáveis
         char op;
         char pergunta = 's';
         float num1, num2;
 
+        // Loop principal para o programa reiniciar enquanto a pergunta for 's'
         while (pergunta == 's')
         {
+            // Interface de usuario para ditar o operador
             Console.WriteLine("ENTRE COM O OPERADOR: +, -, *, /:");
             op = Console.ReadLine()[0];
 
+            // interface para o usuario ditar os dois valores
             Console.WriteLine("ENTRE COM DOIS VALORES: ");
             string[] valores = Console.ReadLine().Split(' ');
             num1 = float.Parse(valores[0]);
             num2 = float.Parse(valores[1]);
 
+            // Execução do comando switch para cada operador que foi colocado
             switch (op)
             {
                 case '+':
@@ -33,10 +38,12 @@ class Program
                     Console.WriteLine($"{num1} / {num2} = {num1 / num2}");
                     break;
                 default:
+                    // Mensagem de erro caso o operador não seja válido
                     Console.WriteLine("OPERADOR ERRADO, POR FAVOR INSIRA O OPERADOR CORRETO");
                     break;
             }
 
+            // Pergunta se deseja continuar
             Console.WriteLine("Continuar? ");
             pergunta = Console.ReadLine()[0];
         }
