@@ -1,4 +1,4 @@
-Projeto_Do (C# Ver.)
+Projeto_Do_while (C# Ver.)
 Versão: 1.0
 Status do Projeto: ✔️ Concluído
 Tópicos
@@ -17,10 +17,10 @@ Tópicos
 🔹 Linguagens, dependências e libs utilizadas
 
 Descrição do projeto
-O projeto foi criado usando o código usado em C++, porém, transcrevendo o código para a linguagem C#;
+O projeto foi criado usando o código antigo em C++, porém, transcrevendo o código para a linguagem C#;
 
 Funcionalidades ⚙️
-✔️ Funcionalidade 1 - Mostrar a execução do comando Do
+✔️ Funcionalidade 1 - Mostrar a execução do comando Do_while
 
 ✔️ Funcionalidade 2 - Ditar  um número de 1 a 10
 
