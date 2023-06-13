@@ -4,14 +4,18 @@ class Program
 {
     static void Main(string[] args)
     {
+        // Declaração da variável num
         int num;
         
+        // execução do comando do-while para que o número inserido esteja entre 1 e 10
         do
         {
-            Console.Write("Digite um numero entre 1 e 10: ");
+            // interface de usuario para escolher um número entre 1 e 10
+            Console.Write("Digite um número entre 1 e 10: ");
             num = Convert.ToInt32(Console.ReadLine());
         } while (num < 1 || num > 10);
         
-        Console.WriteLine("Voce digitou o numero " + num + ".");
+        // Exibição do número digitado
+        Console.WriteLine("Você digitou o número " + num + ".");
     }
 }
