@@ -4,14 +4,20 @@ class Program
 {
     static void Main(string[] args)
     {
+        // Declaração das variáveis
         int num, i = 1;
         
-        Console.Write("Digite um numero inteiro positivo: ");
+        // Interface de usuario para escolha de um número inteiro positivo
+        Console.Write("Digite um número inteiro positivo: ");
         num = int.Parse(Console.ReadLine());
         
+        // execução do comando while para exibir os números de 1 até o número inserido
         while (i <= num)
         {
+            // Exibição do número 
             Console.Write(i + " ");
+            
+            // desenvolvimento do contador i
             i++;
         }
         
