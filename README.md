@@ -26,8 +26,6 @@ O projeto foi criado usando o código usado em C++, porém, transcrevendo o cód
 ## Funcionalidades ⚙️
 ✔️ Funcionalidade 1 - Fazer cálculos matemáticos com diferentes operadores; 
 
-✔️ Funcionalidade 2 - 
-
 ## Distribuição
 Herbet Richers
 
